@@ -1,0 +1,8 @@
+{
+  "name": "zenn-docs",
+  "description": "https://zenn.dev/danishi",
+  "author": "danishi",
+  "dependencies": {
+    "zenn-cli": "latest"
+  }
+}

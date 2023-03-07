@@ -1,0 +1,18 @@
+{
+  "title": "DynamoDBのテーブル設計ドキュメントを考えたい",
+  "closed": false,
+  "archived": false,
+  "created_at": "2023-03-07",
+  "comments": [
+    {
+      "author": "danishi",
+      "created_at": "2023-03-07",
+      "body_markdown": "DynamoDBはスキーマレスだからスキーマが決まらない、PK、SKはインデックスはあってもFKはないのでリレーションは張れない。\nDynamoDBはなるべく少ないテーブルで運用するのがベストプラクティスですよと。\n\nしかし、実際に開発やってると、クライアントや開発者にテーブル構造を説明したり、データの持ち方の認識を合わせるためのドキュメントがどうしても欲しくなる。\n\nなるべく一つのテーブルにまとめるのがベストプラクティスとはいえ、設計の難易度が上がるから結局テーブル増やしがち。\n\nDynamoDBでそこそこ複雑なものを作ることになってしまったつらみを設計ドキュメントに昇華したい。"
+    },
+    {
+      "author": "danishi",
+      "created_at": "2023-03-07",
+      "body_markdown": "というわけで作ったのがこれ\nhttps://github.com/danishi/dynamodb-er-diagram"
+    }
+  ]
+}
