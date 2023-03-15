@@ -13,9 +13,9 @@
       }
     }
   },
-
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
+    "EditorConfig.EditorConfig",
     "alefragnani.bookmarks",
     "sohamkamani.code-eol",
     "streetsidesoftware.code-spell-checker",
@@ -23,23 +23,19 @@
     "eamodio.gitlens",
     "taichi.vscode-textlint"
   ],
-
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [8000],
-
+  "forwardPorts": [
+    8000
+  ],
   // Use 'portsAttributes' to set default properties for specific forwarded ports. More info: https://code.visualstudio.com/docs/remote/devcontainerjson-reference.
   "portsAttributes": {},
-
   // Use 'otherPortsAttributes' to configure any ports that aren't configured using 'portsAttributes'.
   // "otherPortsAttributes": {
   //     "onAutoForward": "silent"
   // },
-
   // Use 'postCreateCommand' to run commands after the container is created.
-
   // Use 'postStartCommand' to run commands after the container is started.
   "postStartCommand": "npm ci && npx zenn preview",
-
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "node"
 }
