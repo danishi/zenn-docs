@@ -21,7 +21,8 @@
     "streetsidesoftware.code-spell-checker",
     "mhutchie.git-graph",
     "eamodio.gitlens",
-    "taichi.vscode-textlint"
+    "taichi.vscode-textlint",
+    "negokaz.zenn-editor"
   ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
