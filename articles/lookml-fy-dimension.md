@@ -1,5 +1,5 @@
 ---
-title: "【小ネタ】LookMLで年度のディメンションを定義する"
+title: "【Looker】LookMLで年度のディメンションを定義する"
 emoji: "🔍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["looker", "lookml", "bigquery"]
