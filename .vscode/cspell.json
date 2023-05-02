@@ -5,6 +5,7 @@
     "danishi",
     "zenn",
     "textlint",
-    "devcontainer"
+    "devcontainer",
+    "laravel"
   ]
 }
