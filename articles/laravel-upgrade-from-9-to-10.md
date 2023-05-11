@@ -12,7 +12,7 @@ https://readouble.com/laravel/10.x/ja/upgrade.html
 
 ---
 
-まずは`compser.json`を書き換えます。
+まずは`composer.json`を書き換えます。
 また、今回PHPのバージョンを8.2.4にしています。
 
 ```diff json:composer.json
