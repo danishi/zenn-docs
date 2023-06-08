@@ -16,7 +16,7 @@ published: true
 # 手順
 
 ## 事前準備
-通知用のSlackチャンネルとSlack　Appを作ってIncoming Webhooks URLを作っておきます。
+通知用のSlackチャンネルとSlack Appを作ってIncoming Webhooks URLを作っておきます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/bfb914e11c8c-20230608.png)
 
