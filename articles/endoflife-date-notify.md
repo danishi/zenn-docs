@@ -128,7 +128,8 @@ def notify_product_version_deadline_for_slack():
 def create_notify_message(product_json, slack_notify):
     # 通知メッセージを作成
     slack_text = ':warning:*' + slack_notify["product"] + slack_notify["version"] + '*\n'
-    slack_text += 'EOL(' + product_json["eol"] + ')まであと' + str(slack_notify["support_term"])  + '日\n'
+    support_term = slack_notify["support_term"] + 1
+    slack_text += 'EOL(' + product_json["eol"] + ')まであと' + str(support_term)  + '日\n'
     slack_text += EOL_URL + slack_notify["product"]
     
     logger.info(slack_text)
