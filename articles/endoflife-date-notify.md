@@ -107,7 +107,7 @@ def notify_product_version_deadline_for_slack():
         except:
             continue
         
-        # 設定したEOLまでの日数に達したらメッセージを
+        # 設定したEOLまでの日数に達したらメッセージを通知
         for day in NOTIFICATION_BEFORE_DEADLINE_DAYS:
             notify_date = deadline_date - timedelta(days=day)
             
