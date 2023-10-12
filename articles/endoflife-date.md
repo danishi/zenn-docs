@@ -36,3 +36,6 @@ https://endoflife.date/recommendations
 扱って欲しいプロダクトがあればイシューを立てたり、コントリビュートしてみましょう。
 
 https://endoflife.date/contribute
+
+APIを利用して自動で通知も可能です。
+https://zenn.dev/danishi/articles/endoflife-date-notify

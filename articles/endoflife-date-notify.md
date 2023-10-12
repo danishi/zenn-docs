@@ -7,6 +7,7 @@ published: true
 ---
 
 # やりたいこと
+https://zenn.dev/danishi/articles/endoflife-date
 
 [endoflife.date](https://endoflife.date/)にはさまざまなプロダクトのEOL情報がまとめられています。
 また、その情報を取得できる[API](https://endoflife.date/docs/api)も用意されています。
