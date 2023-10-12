@@ -25,7 +25,7 @@ HTML形式のファイルに対して、タグ内のリンクをたどってア�
   <h1>htmltest</h1>
 
   <a href="https://www.example.com">This is a link</a>
-  <a href="https://hoge.example.com/">This is a non-existent link</a>
+  <a href="https://hoge.example.com">This is a non-existent link</a>
 
 </body>
 
@@ -37,7 +37,7 @@ $ htmltest index.html
 htmltest started at 02:51:28 on .
 ========================================================================
 index.html
-  Get "https://hoge.example.com/": dial tcp: lookup hoge.example.com on 192.168.65.5:53: no such host --- index.html --> https://hoge.example.com/
+  Get "https://hoge.example.com": dial tcp: lookup hoge.example.com on 192.168.65.5:53: no such host --- index.html --> https://hoge.example.com
 ========================================================================
 ✘✘✘ failed in 10.1932048s
 1 errors
