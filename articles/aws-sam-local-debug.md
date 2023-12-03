@@ -4,6 +4,7 @@ emoji: "🐛"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws","python","lambda","sam","vscode"]
 published: true
+publication_name: "iret"
 ---
 
 # 準備

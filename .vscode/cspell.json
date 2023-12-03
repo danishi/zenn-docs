@@ -6,6 +6,7 @@
     "zenn",
     "textlint",
     "devcontainer",
-    "laravel"
+    "laravel",
+    "iret"
   ]
 }

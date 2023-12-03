@@ -4,6 +4,7 @@ emoji: "🔍"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["looker", "lookml", "bigquery"]
 published: true
+publication_name: "iret"
 ---
 
 # やりたかったこと
