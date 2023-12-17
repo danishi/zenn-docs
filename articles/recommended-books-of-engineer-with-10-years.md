@@ -23,7 +23,7 @@ published: true
 
 ## 『なれる!SE』シリーズ
 
-https://amzn.to/41g6zCW
+https://www.amazon.co.jp/dp/B074CGK5M9
 
 最初に紹介するのはこちらのライトノベルです。
 
@@ -35,11 +35,11 @@ https://amzn.to/41g6zCW
 
 ## 『コンピュータはなぜ動くのか』/『プログラムはなぜ動くのか』/『ネットワークはなぜつながるのか』
 
-https://amzn.to/48dLtam
+https://www.amazon.co.jp/dp/B0BHMS1BYP
 
-https://amzn.to/48bmnJd
+https://www.amazon.co.jp/dp/B094J3CK1C
 
-https://amzn.to/3NnZ1Im
+https://www.amazon.co.jp/dp/B077XSB8BS
 
 個人的に一番最初に読んで頂きたい本です。
 コンピュータの動く原理、プログラムとはなにか、ネットワークが繋がる仕組みを初学者にもわかりやすく面白く説明している良書です。
@@ -51,7 +51,7 @@ https://amzn.to/3NnZ1Im
 
 ## 『SQL ゼロからはじめるデータベース操作』
 
-https://amzn.to/3t57wkW
+https://www.amazon.co.jp/dp/B01HD5VWWO
 
 当時は、何をするにしてもRDB（リレーショナルデータベース）を扱わないことはほぼ皆無でした。
 PostgreSQLを使って、SQLの書き方とRDB設計の基礎を学ぶのにとても分かりやすい良書がこちらです。
@@ -62,7 +62,7 @@ DB管理、SQLもそこまで極める必要はなくなってきたのかもし
 
 ## 『男の服装術』
 
-https://amzn.to/47PAqnX
+https://www.amazon.co.jp/dp/B0116U8E9G
 
 実力がまだまだな分少しでも見た目で有能な印象を持ってもらおうとスーツスタイルの勉強に使った本です。
 
@@ -74,7 +74,7 @@ https://amzn.to/47PAqnX
 
 ## 『チーズはどこへ消えた？』
 
-https://amzn.to/3RDNfMO
+https://www.amazon.co.jp/dp/B00KD2IK4S
 
 自己啓発本ですが、最初の転職に踏み出す行動力と勇気をもらった思い出深い本です。
 
@@ -85,7 +85,7 @@ SESでは、実装ばかりで設計や上流工程の経験がなかなか積�
 
 ## 『達人に学ぶDB設計 徹底指南書』
 
-https://amzn.to/46UywBs
+https://www.amazon.co.jp/gp/product/B00EE1XPAI
 
 『SQL ゼロからはじめるデータベース操作』と同じ作者の本です。
 業務系SEにとってデータベースの設計能力は必須スキル。
@@ -97,9 +97,9 @@ https://mickindex.sakura.ne.jp/
 
 ## 『グラス片手にデータベース設計』シリーズ
 
-https://amzn.to/4896CTc
-https://amzn.to/47WeYhh
-https://amzn.to/4agiAfv
+https://www.amazon.co.jp/dp/B01BLCJ9B6
+https://www.amazon.co.jp/dp/4798109274
+https://www.amazon.co.jp/dp/4798119083
 
 これらはさらに業種業務知識に特化したデータベース設計の本です。
 業務系のSEというのはエンジニアリングそのものよりも、その業種の事情を理解しながらシステム設計に落とし込んでいくことの方が難しい仕事です。
@@ -107,7 +107,7 @@ https://amzn.to/4agiAfv
 
 ## 『マンガでわかる! 幼稚園児でもできた!! タスク管理超入門』
 
-https://amzn.to/47ZgzTE
+https://www.amazon.co.jp/dp/B00FB22EDS
 
 SESプログラマ時代はシングルタスクしか降ってこなかったのであまり意識することはなかったのですが、このあたりから記憶に頼ったタスク管理が破綻し始めたので方法を模索し始めました。
 
@@ -117,7 +117,7 @@ https://qiita.com/danishi/items/4395abb188387ac8b631
 
 ## 『なぜ、システム開発は必ずモメるのか？』
 
-https://amzn.to/3RAepUI
+https://www.amazon.co.jp/dp/B00M84FTDO
 
 システム開発プロジェクトを推進する上でのあるあるとその対策が詰まった良書です。
 SIerでプロジェクトを進めていると、日々色々なトラブルが降りかかり、どう対処するのか判断に困るシーンの連続です。
@@ -136,7 +136,7 @@ SIerでプロジェクトを進めていると、日々色々なトラブルが�
 
 ## 『人生は、運よりも実力よりも「勘違いさせる力」で決まっている』
 
-https://amzn.to/46UWRHp
+https://www.amazon.co.jp/dp/B07FMRDXCQ
 
 過激なタイトルですが、人から実力があると見られるとはどういうことか、組織のなかでチャンスや評価を上手にもらっていくにはどのような振る舞いが求められるのかがわかる本です。
 
@@ -146,7 +146,7 @@ https://amzn.to/46UWRHp
 
 ## 『プロジェクトのトラブル解決大全』
 
-https://amzn.to/47RjSfA
+https://www.amazon.co.jp/dp/B09RQD987H
 
 PMやPMOの真価が問われるのは炎上しそうな、あるいは炎上したときにどう立て直していくかだと思っています。
 いくつもプロジェクトをやってきたなかで思うのは、プロジェクトという変数が多いものを管理するうえでこうしておけば上手くいくという正解はなくともセオリーはあるということです。
