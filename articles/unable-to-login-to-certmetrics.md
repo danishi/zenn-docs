@@ -5,6 +5,8 @@ type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud", "gcp", "資格"]
 published: true
 ---
+https://cp.certmetrics.com/google/en/login
+
 最近できたGoogle Cloudの認定資格ポータルの[CertMetrics](https://support.google.com/cloud-certification/answer/14093796?hl=JA)ですが、ある日以下のようなエラーでアカウントにログインできなくなってしまいました。
 
 `the specified email is used by multiple certmetrics accounts`
