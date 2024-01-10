@@ -44,15 +44,19 @@ EOL_API_BASE_URL = 'https://endoflife.date/api/'
 WEB_HOOK_URL = os.getenv('WEB_HOOK_URL')
 
 # EOLを確認したいプロダクトとバージョン
-NOTIFICATION_PRODUCTS_VERSION = {
-    'vue': '2',
-    'nuxt': '2',
-    'php': '8.0',
-    'python': '3.7',
-    'laravel': '9',
-    'amazon-rds-mysql': '5.7',
-    'amazon-linux': '2',
-}
+# product名は「https://endoflife.date/」の対象プロダクトのURLを
+# versionはAPI（https://endoflife.date/api/[product].json）のcycleを使う
+NOTIFICATION_PRODUCTS_VERSION = [
+    {'product': 'vue', 'version': '2'},
+    {'product': 'nuxt', 'version': '2'},
+    {'product': 'php', 'version': '8.1'},
+    {'product': 'python', 'version': '3.8'},
+    {'product': 'laravel', 'version': '9'},
+    {'product': 'amazon-rds-mysql', 'version': '8.0'},
+    {'product': 'aws-lambda', 'version': 'nodejs14.x'},
+    {'product': 'aws-lambda', 'version': 'python3.8'},
+    {'product': 'amazon-linux', 'version': '2'},
+]
 
 # EOLの何日前に通知する
 NOTIFICATION_BEFORE_DEADLINE_DAYS = [
@@ -97,8 +101,8 @@ def notify_product_version_deadline_for_slack():
     today = datetime.now()
     logger.info(today)
     
-    for product,version in NOTIFICATION_PRODUCTS_VERSION.items():
-        res = fetch_end_of_life_date(product, version)
+    for item in NOTIFICATION_PRODUCTS_VERSION:
+        res = fetch_end_of_life_date(item['product'], item['version'])
         if res != None:
             product_json = json.loads(res)
 
@@ -115,8 +119,8 @@ def notify_product_version_deadline_for_slack():
             
             if today.date() == notify_date.date():
                 slack_notify = {
-                  'product': product,
-                  'version': version,
+                  'product': item['product'],
+                  'version': item['version'],
                   'day': day,
                   'support_term': (deadline_date - datetime.now()).days
                 }
