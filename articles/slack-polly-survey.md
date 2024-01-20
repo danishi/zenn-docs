@@ -17,7 +17,7 @@ publication_name: "iret"
 
 簡単に出社の意思表示ができ、全員の回答がすぐに見られる場所はどこかなと考えると、普段から使っているSlackがいいと考えました。
 
-Pollyというアンケートが取れるSlackアプリがあるのですが、これを利用することにしました。
+Pollyというアンケートを取れるSlackアプリがあり、これを利用することにしました。
 
 https://japangooglecl-xxv7878.slack.com/apps/A04E6JX41-polly
 
