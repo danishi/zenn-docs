@@ -58,3 +58,9 @@ https://japangooglecl-xxv7878.slack.com/apps/A04E6JX41-polly
 * `Allow Voting for`でいつまで投票できるかを設定
 
 Submitで戻っていき、Sendボタンを押せばスケジューリング完了です。
+
+# 注意点
+
+無料版だと応答回数に制限があるので大規模に使うのは向いてないかも。
+
+https://www.polly.ai/help/slack/response-limits-explained
