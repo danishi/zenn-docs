@@ -1,5 +1,5 @@
 ---
-title: "5年かけてAWSとGoogle Cloudを全冠したので振り返る"
+title: "5年かけてAWSとGoogle Cloudの認定資格を全冠したので振り返る"
 emoji: "👑"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "googlecloud", "資格", "aws認定試験", "googlecloud認定資格"]
