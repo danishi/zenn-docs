@@ -61,7 +61,7 @@ jobs:
 
 リポジトリシークレットとして`NPM_TOKEN`にnpmのアクセストークンを設定するためにトークンを発行する。
 
-https://www.npmjs.com/settings/[ユーザー名]/tokens
+`https://www.npmjs.com/settings/[ユーザー名]/tokens`
 
 Generate New Token -> Classic Token
 
