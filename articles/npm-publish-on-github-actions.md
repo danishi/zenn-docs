@@ -22,7 +22,7 @@ on:
       - "v*"
 
 jobs:
-  deploy:
+  publish:
     name: Node.js ${{ matrix.python-version }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     timeout-minutes: 10
