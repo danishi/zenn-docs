@@ -2,9 +2,9 @@
   "plugins": {},
   "filters": {},
   "rules": {
+    "gc-product-name": true,
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": true,
-    "spellcheck-tech-word": true,
-    "gc-product-name": true
+    "spellcheck-tech-word": true
   }
 }
