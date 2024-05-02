@@ -9,7 +9,7 @@ publication_name: "iret"
 
 # tl;dr
 
-Google Cloudに関連するプロダクトやAPIの表記を校正するためのtextlintルールをOSSで作成、公開しました！
+GW期間を利用してGoogle Cloudに関連するプロダクトやAPIの表記を校正するためのtextlintルールをOSSで作成、公開しました！
 
 https://www.npmjs.com/package/textlint-rule-gc-product-name
 
