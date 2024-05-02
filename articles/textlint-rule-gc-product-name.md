@@ -34,7 +34,7 @@ https://github.com/danishi/textlint-rule-gc-product-name
 まず、このルールを作る前にどのようにマスタとなるGoogle Cloudのプロダクト名一覧を取得しようか考えました。
 手動で全てリストアップするのは避けたいですし、サービス名は追加、更新、削除されるので自動化を行いたいです。
 
-AWSだとこういった[ズバリなAPI](https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-products)が用意されているみたいですが、探した限り見つからなかったので以下3点を情報のリソース源としました。
+AWSだとこういった[ズバリなAPI](https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-products)が用意されているみたいですが、探した限り見つからなかったので以下3点を情報リソースとしました。
 
 * [手動でリストアップしたプロダクト名一覧](https://github.com/danishi/gc-service-list-api/blob/main/data/products.json)
 * [Google Cloudの製品ページ](https://cloud.google.com/products?hl=en)
@@ -45,7 +45,7 @@ AWSだとこういった[ズバリなAPI](https://aws.amazon.com/api/dirs/items/
 https://danishi.github.io/gc-service-list-api/products.json
 
 リソースから必要な情報を収集し統合する処理をGitHub Actionsで行い、GitHub PagesでなんちゃってAPIとして公開しています。
-こちらもOSSで作られているので興味があれば。
+こちらもソースを公開しているのでご興味あれば。
 
 https://github.com/danishi/gc-service-list-api
 
