@@ -16,12 +16,12 @@ https://www.npmjs.com/package/textlint-rule-gc-product-name
 Google Cloudに関する記事を書くときに、是非使ってみてください！
 
 利用方法は一般的なtextlintルールと同じなので割愛します。
-コマンドラインやVSCode拡張機能でルールのチェックができます。
+textlintを使えばコマンドラインやVSCode拡張機能でルールのチェックができます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/eb68330d0615-20240502.png)
 
 このようにスペースを入れるところやキャピタリゼーションが異なるとエラーにしてくれます。
-スペルミスなどのtypoは検出できませんが、他のスペルチェックのルールと組み合わせることで実現できると思います。
+スペルミスなどのtypoは検出できませんが、他のスペルチェックのルールと組み合わせることである程度実現できると思います。
 
 # 作り方解説
 
@@ -64,7 +64,7 @@ https://dev.classmethod.jp/articles/create_aws_textlint_rule/
 
 https://aadojo.alterbooth.com/entry/2023/12/23/090000
 
-AWSやAzureのルールは既に有志で作られていますがGoogle Cloudはなく。
+AWSやAzureのルールは既に有志で作られていますがGoogle Cloudは調べた限りなさそうでした。
 パートナーとしてプロダクト名を間違えるような失礼のないように、弊社CTO([@kaz_goto](https://twitter.com/kaz_goto)）からのリクエストで作成しました😤
 
 https://github.com/danishi/textlint-rule-gc-product-name
