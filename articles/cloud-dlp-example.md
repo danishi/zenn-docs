@@ -2,7 +2,7 @@
 title: "Cloud DLP（Data Loss Prevention）で機密情報を検出し置き換え、マスキングしてみる"
 emoji: "👀"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["googlecloud", "clouddlp"]
+topics: ["googlecloud", "clouddlp", "python"]
 published: true
 ---
 
