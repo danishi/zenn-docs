@@ -138,7 +138,7 @@ My credit card number is 4242424242424242.
     deidentify_with_replace(project_id, text_to_deidentify, info_types)
 ```
 
-![](https://storage.googleapis.com/zenn-user-upload/981413fbe5e2-20240530.png)
+![](https://storage.googleapis.com/zenn-user-upload/badf12b680cf-20240530.png)
 
 ```bash
 $ python3 dlp_test.py
