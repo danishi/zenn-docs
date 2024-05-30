@@ -4,6 +4,7 @@ emoji: "👀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud", "clouddlp", "python"]
 published: true
+publication_name: "iret"
 ---
 
 # はじめに
