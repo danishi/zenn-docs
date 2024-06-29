@@ -117,7 +117,6 @@ import os
 import datetime
 import time
 
-# モデルの初期化
 genai.configure(api_key=os.environ["API_KEY"])
 
 # 動画ファイルは事前にローカルにダウンロードしておく
