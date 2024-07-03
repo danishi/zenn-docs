@@ -40,7 +40,6 @@ pip install -q -U google-generativeai
 
 ```python
 import google.generativeai as genai
-from google.generativeai import caching
 import os
 import datetime
 import time
