@@ -65,7 +65,7 @@ https://dev.classmethod.jp/articles/create_aws_textlint_rule/
 https://aadojo.alterbooth.com/entry/2023/12/23/090000
 
 AWSやAzureのルールは既に有志で作られていますがGoogle Cloudは調べた限りなさそうでした。
-パートナーとしてプロダクト名を間違えるような失礼のないように、弊社CTO([@kaz_goto](https://twitter.com/kaz_goto)）からのリクエストで作成しました😤
+パートナーとしてプロダクト名を間違えるような失礼のないように、弊社エバンジェリスト([@kaz_goto](https://twitter.com/kaz_goto)）からのリクエストで作成しました😤
 
 https://github.com/danishi/textlint-rule-gc-product-name
 
