@@ -1,0 +1,19 @@
+title: "生成AIを使いこなすためのGeminiプログラミング入門"
+summary: "本の\n紹介"
+topics: ["gemini","生成AI","googlecloud","vertexai","入門"]
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - chapter1
+  - chapter2
+
+  # - はじめに
+  # - Geminiを使ってみよう
+  # - AI Studioで使ってみよう
+  # - プロンプトエンジニアリングの基本
+  # - Colabでプログラミング
+  # - マルチモーダル
+  # - GASで使ってみよう
+  # - Vertex AIを使ってみよう
+  # - 生成AIアプリをつくってみようApp Engine
