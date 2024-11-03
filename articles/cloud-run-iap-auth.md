@@ -11,6 +11,7 @@ publication_name: "iret"
 注意
 この機能は2024年11月3日現在、まだPrivate Previewのため、利用申請が必要です。
 :::
+
 # IAPとは
 Identity-Aware Proxy（IAP）はGoogle Cloudが提供するセキュリティ機能で、特定のユーザーのみがリソースにアクセスできるように制御するプロキシサービスです。
 
@@ -51,7 +52,7 @@ Service URL: https://my-iap-service-XXXXXXXXX.asia-northeast1.run.app
 
 URLにアクセスすると、権限エラーが発生するはずです。
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/96507/2fe689e0-1505-5ace-a336-0756fb5c7b32.png)
+![](https://storage.googleapis.com/zenn-user-upload/13910205255f-20241104.png)
 
 ## IAPアクセス権の設定
 
@@ -66,9 +67,9 @@ gcloud alpha iap web add-iam-policy-binding \
 --service=my-iap-service
 ```
 
-数秒待ってから再度アクセスすると、以下のようにIAPを通過してCloud Runサービスにアクセスできるようになります。
+数秒待ってから再度アクセスすると、以下のようにIAPを通過してCloud Runサービスへアクセスできるようになります。
 
-![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/96507/f7206670-0b76-696c-381f-e1bd892aee60.png)
+![](https://storage.googleapis.com/zenn-user-upload/3631f5926841-20241104.png)
 
 IAPの認証を通してCloud Runサービスにアクセスできました！
 
