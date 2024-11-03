@@ -9,18 +9,18 @@ publication_name: "iret"
 
 :::message
 注意
-この機能は2024/11/03現在まだPrivate Previewのため利用申請が必要です。
+この機能は2024年11月3日現在、まだPrivate Previewのため、利用申請が必要です。
 :::
 # IAPとは
-Identity-Aware Proxy（IAP）は、Google Cloudで提供されているセキュリティ機能で、特定のユーザーだけが特定のリソースへアクセスできるようにするプロキシサービスです。
+Identity-Aware Proxy（IAP）はGoogle Cloudが提供するセキュリティ機能で、特定のユーザーのみがリソースにアクセスできるように制御するプロキシサービスです。
 
-これを利用することでCloud Runの前段でIAPによる認証を付与することは以前からできましたが、そのためには別途Cloud Load Balancingを構成する必要がありました。
-それが、Cloud Runサービス単体に対してできるようになりました！
+これまではCloud RunでIAPによる認証を利用するには**Cloud Load Balancerを構築する必要がありました**が、今回のアップデートにより**Cloud Run単体でIAPを設定できる**ようになりました！
 
 # 手順
 今のところはgcloudコマンドからしか設定できないようなので、Cloud Shellで実行します。
 
-## IAPのサービスアカウントを作成、「run.invoker」権限を付与
+## IAP用サービスアカウントの作成と権限付与
+まず、IAPに必要なサービスアカウントを作成し、「run.invoker」権限を付与します。
 
 ```bash
 export PROJECT_ID=<your_project_id>
@@ -36,7 +36,9 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 --role="roles/run.invoker"
 ```
 
-## IAPを有効にしてコンテナをCloud Runにデプロイ
+## Cloud RunへのデプロイとIAPの有効化
+
+次に、コンテナをCloud Runにデプロイし、IAPを有効にします。
 
 ```bash
 gcloud alpha run deploy my-iap-service \
@@ -47,11 +49,13 @@ gcloud alpha run deploy my-iap-service \
 Service URL: https://my-iap-service-XXXXXXXXX.asia-northeast1.run.app
 ```
 
-そのままアクセスすると権限エラーになります。
+URLにアクセスすると、権限エラーが発生するはずです。
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/96507/2fe689e0-1505-5ace-a336-0756fb5c7b32.png)
 
-## IAPにアクセス権を付与
+## IAPアクセス権の設定
+
+特定のメールアドレスによるアクセスを許可するために、IAPにアクセス権を付与します。
 
 ```bash
 gcloud alpha iap web add-iam-policy-binding \
@@ -62,13 +66,15 @@ gcloud alpha iap web add-iam-policy-binding \
 --service=my-iap-service
 ```
 
-実行後少し待って再アクセスすると。
+数秒待ってから再度アクセスすると、以下のようにIAPを通過してCloud Runサービスにアクセスできるようになります。
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/96507/f7206670-0b76-696c-381f-e1bd892aee60.png)
 
 IAPの認証を通してCloud Runサービスにアクセスできました！
 
-アクセスを削除するにはこのようにします。
+## アクセス権の削除
+
+アクセス権を削除する場合は、以下のコマンドを実行します。
 
 ```bash
 gcloud alpha iap web remove-iam-policy-binding \
@@ -79,12 +85,15 @@ gcloud alpha iap web remove-iam-policy-binding \
 --service=my-iap-service
 ```
 
-## 既存のCloud RunサービスをIAP有効化/無効化
+## 既存のCloud RunサービスへのIAP設定
+
+既存のCloud Runサービスに対しても、次のコマンドでIAPを有効化または無効化できます。
+
 ```bash
-gcloud alpha run services update <your-service> --[no-]iap
+gcloud alpha run services update <your_service> --[no-]iap
 ```
 
 ---
 
-ロードバランサーを構築しなくてよい分コスト削減と手軽さにつながる嬉しいアップデートですね！
-GAが待ち遠しいです！
+今回のアップデートにより、Cloud Load Balancerの構築が不要になり、コスト削減と手軽さが大きく向上しました！
+GAが待ち遠しいですね！
