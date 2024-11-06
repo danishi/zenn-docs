@@ -10,7 +10,7 @@ publication_name: "iret"
 :::message
 注意
 この機能は2024年11月3日現在、まだPrivate Previewのため、利用申請が必要です。
-申請は[こちら](https://docs.google.com/forms/d/e/1FAIpQLScIVWvO0hMkNNVAXSem4KNdAssjhSC0a8Mni-2HdZbecsQTyg/viewform?resourcekey=0-Mh7Dm7iQQCEJ2nFT20LJhg)のGoogleフォームから行えます。
+申請方法はGoogle担当者にご相談ください。
 :::
 
 # IAPとは
