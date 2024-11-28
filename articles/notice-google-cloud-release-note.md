@@ -4,7 +4,7 @@ emoji: "🔔"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud"]
 published: true
-
+publication_name: "iret"
 ---
 
 という方に。
