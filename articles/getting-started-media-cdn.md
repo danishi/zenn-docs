@@ -2,7 +2,7 @@
 title: "Media CDNを試してみる"
 emoji: "🎥"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["mediacdn", "googlecloud", "cnd"]
+topics: ["mediacdn", "googlecloud", "cdn"]
 published: true
 publication_name: "iret"
 ---
