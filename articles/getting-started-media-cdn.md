@@ -10,15 +10,14 @@ publication_name: "iret"
 
 https://cloud.google.com/media-cdn/docs/overview?hl=ja
 
-Cloud CDNがウェブの高速化に最適化されたCDNサービス。
-一方でMedia CDNはメディア配信に最適化している。
-ストリーミング再生や長い動画の配信ユースケースに最適で、世界最大級の動画配信プラットフォームであるYouTubeと同じインフラストラクチャを活用できる。
+Cloud CDNはウェブの高速化に最適化されたCDNサービス。
+一方でMedia CDNはメディア配信に最適化されています。
+ストリーミング再生や長い動画の配信ユースケースに最適で、世界最大級の動画配信プラットフォームであるYouTubeと同じインフラストラクチャを活用できます。
 
 https://cloud.google.com/blog/products/networking/deploy-streaming-service-with-media-cdn?hl=en
 >With Google Cloud’s Media CDN, customers can now leverage the same infrastructure that YouTube uses to serve its global users.
 
-但し利用にはGoogleの担当者に[アクセスをリクエスト](https://cloud.google.com/media-cdn/docs/overview?hl=ja#request-access)する必要がある。
-利用料も公になってないので現状は担当者に確認をとる必要があります。
+但し利用にはGoogleの担当者に[アクセスをリクエスト](https://cloud.google.com/media-cdn/docs/overview?hl=ja#request-access)する必要があり、利用料も公開されていないため現状は担当者に確認をとる必要があります。
 
 # クイックスタートを試してみる
 https://cloud.google.com/media-cdn/docs/quickstart?hl=ja
