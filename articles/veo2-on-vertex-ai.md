@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=e-uf510bXH0
 
 https://www.youtube.com/watch?v=oMZ7YNaSfn8
 
-# Vertex AIでVeo 2を使う。
+# Vertex AIでVeo 2を使う
 
 :::message
 Veo 2は一般提供されていますがホワイトリストに登録された承認ユーザーのみが利用できます。利用にはGoogle Cloud アカウント担当者にお問い合わせください。
