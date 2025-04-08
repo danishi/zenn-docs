@@ -13,6 +13,13 @@ publication_name: "iret"
 申請方法はGoogle担当者にご相談ください。
 :::
 
+:::message
+2025年4月8日追記。Pre-GAされました！
+https://cloud.google.com/run/docs/securing/identity-aware-proxy-cloud-run?hl=en
+コンソールからも設定可能になっています！
+![](https://storage.googleapis.com/zenn-user-upload/44d936a84131-20250408.png)
+:::
+
 # IAPとは
 Identity-Aware Proxy（IAP）はGoogle Cloudが提供するセキュリティ機能で、特定のユーザーのみがリソースにアクセスできるように制御するプロキシサービスです。
 
