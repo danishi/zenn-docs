@@ -50,9 +50,11 @@ https://www.youtube.com/watch?v=kSmy1iPmaC8
 https://www.youtube.com/watch?v=Dza25xkWEYc
 
 # 価格
-モデルの利用料に関する情報は今のところ見つけることができませんでした。
+https://cloud.google.com/vertex-ai/generative-ai/pricing?hl=en#lyria
 
-https://cloud.google.com/vertex-ai/generative-ai/pricing?hl=en
+| モデル     | 機能   | 説明               | 入力        | 出力 | 価格                 |
+| ------- | ---- | ---------------- | --------- | -- | ------------------ |
+| Lyria 2 | 音楽生成 | テキストプロンプトから音楽を生成 | テキストプロンプト | 音楽 | 30秒あたり$0.06 |
 
 # 感想
 30秒までしか生成できず続きを作ることもできないので現状は使いどころが難しいですが、同じくGoogle I/O 2025で発表された動画生成AIモデルのVeo 3やAI映像制作ツールのFlowと組み合わさることで強力な進化をしそうです。
