@@ -84,7 +84,7 @@ https://iret.media/158940
 1. 毎週日曜に翌週の記事のネタとなるURLをリストするための、ソース用雛形のMarkdownファイルがGitHub Actionsでスケジュール実行されたGemini CLIによって生成され、GitHubにプッシュされる
 1. 人間が見つけたネタをソースファイルに追加、コミットしていく
 1. 金曜にGitHub Actionsでスケジュール実行されたClaude CodeがソースファイルをもとにWeb Fetchしながら記事やタグ情報を生成しPRを作成する
-1. 作成されたPRを人間がレビュー、手動ないしClaude Code Actionsに修正を指示してブラッシュアップする
+1. 作成されたPRを人間がレビュー、手動ないし[Claude Code Action](https://github.com/anthropics/claude-code-action)に修正を指示してブラッシュアップする
 1. PRがApproveされたら、人間がマージし、完成した記事のMarkdownファイルと別途作り置いていたバナーを使ってiret.mediaに記事を作成、投稿を申請する
 
 ```mermaid
@@ -104,7 +104,7 @@ flowchart
     H4[iret.mediaへ投稿]:::human
   end
 
-  subgraph AILane [Claude Code Actions]
+  subgraph AILane [Claude Code Action]
     direction TB
     C2[修正指示を受けて<br>PRを自動更新]:::ai
   end
