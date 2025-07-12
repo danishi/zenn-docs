@@ -4,6 +4,6 @@ https://zenn.dev/danishi
 ## Getting Started 🚀
 
 ```bash
-npm ci
+npm install
 npx zenn preview
 ```
