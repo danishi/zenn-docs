@@ -36,7 +36,7 @@ https://iret.media/109579
 
 https://zenn.dev/iret/articles/slack-url-summarize-gemini
 
-後半はバナーを画像生成して毎週変えたほうが生成AIらしいだろうと思いつき、[Figma AI](https://www.figma.com/ja-jp/ai/?context=localeChange)を使って量産したバナーを毎週切り替えるようになりました。
+後半はアイキャッチを画像生成して毎週変えたほうが生成AIらしいだろうと思いつき、[Figma AI](https://www.figma.com/ja-jp/ai/?context=localeChange)を使って量産したアイキャッチを毎週切り替えるようになりました。
 
 https://iret.media/154207
 
@@ -85,7 +85,7 @@ https://iret.media/158940
 1. 人間が見つけたネタをソースファイルに追加、コミットしていく
 1. 金曜にGitHub Actionsでスケジュール実行されたClaude CodeがソースファイルをもとにWeb Fetchしながら記事やタグ情報を生成しPRを作成する
 1. 作成されたPRを人間がレビュー、手動ないし[Claude Code Action](https://github.com/anthropics/claude-code-action)に修正を指示してブラッシュアップする
-1. PRがApproveされたら、人間がマージし、完成した記事のMarkdownファイルと別途作り置いていたバナーを使ってiret.mediaに記事を作成、投稿を申請する
+1. PRがApproveされたら、人間がマージし、完成した記事のMarkdownファイルと別途作り置いていたアイキャッチを使ってiret.mediaに記事を作成、投稿を申請する
 
 ```mermaid
 flowchart
