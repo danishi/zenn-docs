@@ -2,8 +2,8 @@
 title: "週刊生成AIニュースブログを支える技術"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["claudecode","githubactions","ブログ","FigmaAI","生成ai"]
-published: false
+topics: ["claudecode","githubactions","ブログ","figmaai","生成ai"]
+published: true
 publication_name: "iret"
 ---
 
