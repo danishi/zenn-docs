@@ -10,7 +10,7 @@ publication_name: "iret"
 # はじめに
 
 皆さんご存知でしょうか？
-アイレットのオウンドメディア「[iret.media](https://iret.media/)」では、週刊で[生成AIニュースブログ](https://iret.media/tag/dx%e9%96%8b%e7%99%ba%e4%ba%8b%e6%a5%ad%e9%83%a8-presents-%e9%80%b1%e5%88%8a%e7%94%9f%e6%88%90ai%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9)を投稿しています。
+アイレットのオウンドメディア「[iret.media](https://iret.media/)」では、[DX開発事業部](https://www.iret.co.jp/company/section/dx-development.html)監修のもと週刊で[生成AIニュースブログ](https://iret.media/tag/dx%e9%96%8b%e7%99%ba%e4%ba%8b%e6%a5%ad%e9%83%a8-presents-%e9%80%b1%e5%88%8a%e7%94%9f%e6%88%90ai%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9)を投稿しています。
 
 https://iret.media/159989
 
