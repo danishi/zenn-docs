@@ -85,7 +85,7 @@ https://iret.media/158940
 1. 人間が見つけたネタをソースファイルに追加、コミットしていく
 1. 金曜にGitHub Actionsでスケジュール実行されたClaude CodeがソースファイルをもとにWeb Fetchしながら記事やタグ情報を生成しPRを作成する
 1. 作成されたPRを人間がレビュー、手動ないし[Claude Code Action](https://github.com/anthropics/claude-code-action)に修正を指示してブラッシュアップする
-1. PRがApproveされたら、人間がマージし、完成した記事のMarkdownファイルと別途作り置いていたアイキャッチを使ってiret.mediaに記事を作成、投稿を申請する
+1. PRがApproveされたら、人間がマージし、完成した記事のMarkdownファイルと別途作り置いていたアイキャッチを使って翌週月曜にiret.mediaに記事を作成、投稿を申請する
 
 ```mermaid
 flowchart
@@ -101,7 +101,7 @@ flowchart
     H1[URLを追加しコミット]:::human
     H2a[PRをレビュー・修正、または修正指示]:::human
     H3[Approve → マージ]:::human
-    H4[iret.mediaへ投稿]:::human
+    H4[翌週月曜: iret.mediaへ投稿]:::human
   end
 
   subgraph AILane [Claude Code Action]
