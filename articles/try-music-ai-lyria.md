@@ -45,6 +45,8 @@ https://soundcloud.com/danishi-91070654/lyria-2-sample-8-bit-boss-bgm
 
 追記：プロンプトを工夫することでボーカルもつけることができるようです！
 
+https://soundcloud.com/danishi-91070654/lyria-2-sample-j-pop-ballad
+
 https://www.youtube.com/watch?v=-NAci5vWKx8
 
 公式から出てるサンプルもありました。
