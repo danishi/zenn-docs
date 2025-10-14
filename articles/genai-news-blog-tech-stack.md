@@ -152,3 +152,6 @@ Claude Code Actionがスケジュール実行に対応していないので、�
 * [@hira46854918](https://x.com/hira46854918)
 * [@te_yama](https://qiita.com/te_yama)
 * [@gen_qij2d](https://x.com/gen_qij2d)
+
+# 続き
+https://zenn.dev/iret/articles/3e38797ba34d64
