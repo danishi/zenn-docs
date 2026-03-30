@@ -155,3 +155,4 @@ Claude Code Actionがスケジュール実行に対応していないので、�
 
 # 続き
 https://zenn.dev/iret/articles/3e38797ba34d64
+https://zenn.dev/iret/articles/8d592a48e35142
